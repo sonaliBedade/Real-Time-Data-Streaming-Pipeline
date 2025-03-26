@@ -150,9 +150,6 @@ The parts of a single processed message are:
 
 Above are the performance characteristics of the output message. This gets displayed after processing every 100 messages.
 
-## Insights:
-
-
 ## Additional information:
 
 - How would you deploy this application in production?
