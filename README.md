@@ -11,26 +11,19 @@ The aim of this pipeline is to simulate a real-time data stream and transform it
 
 ## Project Setup:
 
-### Prerequisites:
-- Install Docker Compose and Docker Desktop for your platform (Windows/MacOS/Linux) 
-- Install Python 3.8 and add it to your system's path.
-- Download Kafka binary file (.tgz or .tar file) from Kafka's official website
-
 ### Setup Instructions:
-1. Verify that the prerequisites are properly installed.
-2. Clone this repository and extract in local folder
-3. Store the contents of this repository inside the kafka folder that you have installed during the prerequisites stage.
-4. Open docker desktop in background
-5. Open Terminal/Command prompt
-6. Navigate to local project folder in terminal/command prompt and enter "docker-compose up"
-7. Duplicate terminal/command prompt tab and navigate to the local project folder
-8. In the new tab, enter "pip install kafka-python"
-9. After installation is complete, enter "python create_kafka_topic.py"
-10. Next, enter "python create_kafka_consumer.py"
-11. Monitor the output
-12. Press 'Ctrl+C' to stop the messages
-13. Go to docker and view the logs
-14. Stop docker container
+1. Clone this repository and extract in local folder
+2. Open docker desktop in background
+3. Open Terminal/Command prompt
+4. Navigate to local project folder in terminal/command prompt and enter "docker-compose up"
+5. Duplicate terminal/command prompt tab and navigate to the local project folder
+6. In the new tab, enter "pip install kafka-python"
+7. After installation is complete, enter "python create_kafka_topic.py"
+8. Next, enter "python create_kafka_consumer.py"
+9. Monitor the output
+10. Press 'Ctrl+C' to stop the messages
+11. Go to docker and view the logs
+12. Stop docker container
 
 ## Design Choices:
 
